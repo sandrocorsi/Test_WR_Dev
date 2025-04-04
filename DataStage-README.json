@@ -1,0 +1,42 @@
+{
+  "project" : "Test WR Project",
+  "projectId" : "bf75403c-1fb1-4b53-a913-2460804c732e",
+  "created_by" : "cpadmin",
+  "environment" : "cp4d",
+  "services_info" : [ {
+    "name" : "ds-canvas",
+    "version" : "512.0.10"
+  }, {
+    "name" : "ds-cas-lite",
+    "version" : "512.0.3"
+  }, {
+    "name" : "ds-codegen",
+    "version" : "512.0.7"
+  }, {
+    "name" : "ds-flow-runtime",
+    "version" : "512.0.2"
+  }, {
+    "name" : "ds-flows",
+    "version" : "512.0.7"
+  }, {
+    "name" : "ds-migration",
+    "version" : "512.0.4"
+  }, {
+    "name" : "ds-px-runtime",
+    "version" : "512.0.7"
+  }, {
+    "name" : "DSAssets",
+    "version" : "512.0.3"
+  }, {
+    "name" : "qs-ruleset",
+    "version" : "512.0.2"
+  } ],
+  "assets" : [ {
+    "name" : "bf75403c-1fb1-4b53-a913-2460804c732e-DataStage_settings",
+    "type" : "data_intg_project_settings"
+  }, {
+    "name" : "FirstFlow",
+    "type" : "data_intg_flow"
+  } ],
+  "flow_job_mapping" : [ ]
+}
