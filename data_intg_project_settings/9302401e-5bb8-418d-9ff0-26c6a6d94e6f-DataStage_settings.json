@@ -1,0 +1,55 @@
+{
+  "project" : {
+    "jobNameSuffix" : ".DataStage job",
+    "runEnvironmentId" : "",
+    "runPriorityQueue" : "Medium",
+    "runRemoteEngineEnforcement" : false,
+    "testDataProperties" : {
+      "testCaseJobNameSuffix" : ".DataStageTestCase Job",
+      "testDataConnectionType" : ""
+    },
+    "saveFrequency" : "save_changes_automatically",
+    "formatTimeString" : "",
+    "flowLimits" : {
+      "warnLimit" : 100
+    },
+    "testDataConnectionId" : "",
+    "nlsCollate" : "OFF",
+    "disableParamsRefreshCache" : false,
+    "runMessageHandlerId" : "",
+    "formatDecimalSeparator" : "",
+    "testDataBasePath" : "",
+    "sequenceNameSuffix" : ".DataStage sequence",
+    "defineParameters" : false,
+    "optimizedSequenceNameSuffix" : ".DataStage sequence job",
+    "runArtifactRetention" : {
+      "enabled" : false
+    },
+    "gitIntegration" : {
+      "enableGit" : true,
+      "gitProvider" : "git",
+      "gitFolder" : "",
+      "gitToken" : "{dsnextenc}8isQvaTS4ecSyLPFt2D3XuedPI2AV/haCWqDkDlSyr9I0a1sjmausO1tEXB0N3Nb",
+      "gitURL" : "https://github.com/sandrocorsi/Test_WR_Dev.git",
+      "gitBranch" : "prod"
+    },
+    "thresholdLimits" : { },
+    "formatDateString" : "",
+    "metricsRepository" : {
+      "enableMetrics" : false,
+      "metricsRetention" : {
+        "enabled" : false
+      },
+      "connection" : {
+        "datasource_type" : "e1c23729-99d8-4407-b3df-336e33ffdc82",
+        "properties" : {
+          "query_timeout" : "300",
+          "retry_limit" : "2"
+        }
+      },
+      "enableAdvancedFind" : false
+    },
+    "nlsMap" : "",
+    "formatTimestampString" : ""
+  }
+}
