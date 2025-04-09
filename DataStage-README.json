@@ -1,6 +1,6 @@
 {
   "project" : "Test WR Project",
-  "projectId" : "bf75403c-1fb1-4b53-a913-2460804c732e",
+  "projectId" : "7218d896-ea0e-4abd-a37c-9c8350ea6613",
   "created_by" : "cpadmin",
   "environment" : "cp4d",
   "services_info" : [ {
@@ -32,11 +32,21 @@
     "version" : "512.0.2"
   } ],
   "assets" : [ {
+    "name" : "FirstFlow.DataStage job",
+    "type" : "job"
+  }, {
     "name" : "bf75403c-1fb1-4b53-a913-2460804c732e-DataStage_settings",
+    "type" : "data_intg_project_settings"
+  }, {
+    "name" : "7218d896-ea0e-4abd-a37c-9c8350ea6613-DataStage_settings",
     "type" : "data_intg_project_settings"
   }, {
     "name" : "FirstFlow",
     "type" : "data_intg_flow"
+  }, {
+    "name" : "FirstFlow",
+    "type" : "px_executables",
+    "location" : "FirstFlow"
   } ],
   "flow_job_mapping" : [ ]
 }
