@@ -33,7 +33,7 @@
         "ui_data" : {
           "image" : "/data-intg/flows/graphics/palette/PxRowGenerator.svg",
           "x_pos" : 316.8,
-          "label" : "Row_Generator_1",
+          "label" : "Row_Generator_10_rows",
           "y_pos" : 142.56
         }
       },
@@ -100,7 +100,8 @@
                 "label" : "Link_1",
                 "y_pos" : -20,
                 "height" : 80
-              } ]
+              } ],
+              "class_name" : "linkStyle__runMetricsLinkDefaultStyle___ixW31"
             }
           },
           "link_name" : "Link_1",
